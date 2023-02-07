@@ -1,2 +1,10 @@
 @charset "UTF-8";
 
+:root {
+    --color0: hsl(256, 26%, 20%);
+    --color1: hsl(216, 30%, 68%);
+    --color2: hsl(270, 9%, 17%);
+    --color3: hsl(273, 4%, 51%);
+    --color4: hsl(0, 0%, 98%);
+    
+}
