@@ -26,7 +26,7 @@
 /* HEADER AND MENU OPTIONS */
 
 header {
-    max-width: 1500px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
     justify-content: space-between;
@@ -40,7 +40,11 @@ nav {
     font-weight: var(--fontweight1);
     font-size: 12px;
     height: 8vh;
-    padding: 8px;
+    padding: 6px;
+}
+
+nav img {
+    margin-right: 260px;
 }
 
 .nav-list {
@@ -54,18 +58,59 @@ nav {
     padding: 10px;
 }
 
+.nav-list li a {
+    color: var(--color3);
+    text-decoration: none;
+}
+
 #btn {
     border: 2px solid black;
     padding: 10px 20px;
     margin-left: 25px;
 }
 
-a {
-    color: var(--color3);
-    text-decoration: none;
-}
-
 .mobile-menu {
     display: none;
     cursor: pointer;
+}
+
+/* FIRST SECTION AND INTRODUCING COMPONENTS */
+
+section.intro {
+    background-color: var(--color0);
+    width: 100%;
+    height: 80vh;
+}
+
+.intro-container {
+    font-family: var(--bodyfont);
+    color: var(--color4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    width: 600px;
+}
+
+hr {
+    width: 150px;
+}
+
+.intro-content h1 {
+    font-family: var(--headingsfont);
+    font-weight: var(--fontweight1);
+    font-size: 60pt;
+    line-height: 4.3rem;
+}
+
+.intro-content p {
+    line-height: 1.6em;
+    margin-top: 20px;
+    font-size: 12pt;
+}
+
+.intro-img img {
+    margin-top: 100px;
 }
