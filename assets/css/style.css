@@ -25,9 +25,11 @@
 
 /* HEADER AND MENU OPTIONS */
 
-a {
-    color: var(--color3);
-    text-decoration: none;
+header {
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
 }
 
 nav {
@@ -35,7 +37,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: var(--bodyfont);
+    font-weight: var(--fontweight1);
+    font-size: 12px;
     height: 8vh;
+    padding: 8px;
 }
 
 .nav-list {
@@ -45,7 +50,19 @@ nav {
 
 .nav-list li {
     letter-spacing: 1px;
-    margin-left: 32px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+#btn {
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--color3);
+    text-decoration: none;
 }
 
 .mobile-menu {
