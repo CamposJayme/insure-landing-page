@@ -25,40 +25,30 @@
 
 /* HEADER AND MENU OPTIONS */
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.header-logo {
-    padding: 25px;
-    margin-left: 120px;
-}
-
-.header-menu {
-    margin-right: 120px;
-    padding: 25px;
-}
-
-.header-menu nav ul {
-    display: flex;
-}
-
-.header-menu nav ul li {
-    margin: 0 35px 0 0;
-}
-
-.header-menu nav ul li a {
-    text-decoration: none;
+a {
     color: var(--color3);
-    font-family: var(--bodyfont);
-    font-weight: var(--fontweight1);
-    font-size: 11pt;
+    text-decoration: none;
 }
 
-#nav-btn {
-    border: 2px solid black;
-    padding: 10px 25px;
-    color: black;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--bodyfont);
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
 }
