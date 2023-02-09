@@ -80,6 +80,7 @@ section.intro {
     background-color: var(--color0);
     width: 100%;
     height: 80vh;
+    margin-bottom: 320px;
 }
 
 .intro-container {
@@ -135,7 +136,49 @@ section.intro {
 .cards {
     background-color: yellow;
     display: flex;
-    margin-top: 320px;
+    margin: auto;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.image {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-family: var(--headingsfont);
+    font-weight: 400;
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-family: var(--bodyfont);
+    color: var(--color3);
+    line-height: 1.5em;
+}
+
+/* SECTION WITH ADVERTISEMENT ABOUT HOW THE COMPANY WORKS */
+
+.how-we-work {
+    margin-top: 150px;
+}
+
+.work-container {
+    font-family: var(--headingsfont);
+    font-weight: var(--fontweight1);
+    color: var(--color4);
+    background-color: var(--color0);
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 1150px;
+    height: 28vh;
+}
+
+.work-container a {
+    text-decoration: none;
+    color: var(--color4);
 }
 
 @media (min-width: 320px) and (max-width: 1180px) {    
