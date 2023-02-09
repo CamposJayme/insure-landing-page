@@ -27,7 +27,6 @@
     <section class="intro">
         <div class="intro-container">
             <div class="intro-content">
-                <hr>
                 <h1>Humanizing your insurance.</h1>
                 <p>
                     Get your life insurance coverage easier and faster. We blend our expertise
@@ -37,7 +36,10 @@
                 <a href="#" class="intro-btn">View Plans</a>
             </div>
             <div class="intro-img">
-                <img src="assets/images/image-intro-desktop.jpg" alt="image-intro">
+                <picture>
+                    <source media="(max-width: 420px)" srcset="assets/images/image-intro-mobile.jpg">
+                    <img src="assets/images/image-intro-desktop.jpg" alt="image-intro">
+                </picture>
             </div>
         </div>
     </section>
@@ -45,9 +47,6 @@
     <main>
         <section class="cards">
             <div class="card">
-                <div class="cards-title">
-                    <h1>We're different</h1>
-                </div>
                 <div class="image">
                     <img src="assets/images/icon-snappy-process.svg" alt="snappy-process">
                 </div>
