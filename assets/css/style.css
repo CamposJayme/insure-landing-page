@@ -99,10 +99,6 @@ section.intro {
     margin-bottom: 185px;
 }
 
-hr {
-    width: 150px;
-}
-
 .intro-content h1 {
     font-family: var(--headingsfont);
     font-weight: var(--fontweight0);
@@ -132,4 +128,33 @@ hr {
 .intro-img img {
     margin-top: 100px;
     width: 100%;
+}
+
+/* CARDS ABOUR THE COMPANY DIFFERENCIALS */
+
+.cards {
+    background-color: yellow;
+    display: flex;
+    margin-top: 320px;
+}
+
+@media (min-width: 320px) and (max-width: 1180px) {    
+    .intro-container {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+
+    .intro-content {
+        background-color: var(--color0);
+    }
+    
+    .intro-img img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cards {
+        margin-top: 650px;
+    }
 }
