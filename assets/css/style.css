@@ -41,6 +41,7 @@ nav {
     font-size: 12px;
     height: 8vh;
     padding: 6px;
+    width: 100%;
 }
 
 nav img {
@@ -181,7 +182,31 @@ section.intro {
     color: var(--color4);
 }
 
-@media (min-width: 320px) and (max-width: 1180px) {    
+@media (min-width: 320px) and (max-width: 768px) {   
+    header {
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav img {
+        margin: 0;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    
     .intro-container {
         display: flex;
         flex-direction: column-reverse;
