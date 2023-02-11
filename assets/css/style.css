@@ -26,7 +26,7 @@
 /* HEADER AND MENU OPTIONS */
 
 header {
-    max-width: 1500px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
     justify-content: space-between;
@@ -163,6 +163,7 @@ section.intro {
 
 .how-we-work {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .work-container {
@@ -180,6 +181,15 @@ section.intro {
 .work-container a {
     text-decoration: none;
     color: var(--color4);
+}
+
+/* RODAPÉ COM OPÇÕES DE MENU */
+
+.logo-networks {
+    display: flex;
+    background-color: var(--color1);
+    justify-content: center;
+    margin: auto;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {   
