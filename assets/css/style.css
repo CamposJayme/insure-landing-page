@@ -26,54 +26,33 @@
 /* HEADER AND MENU OPTIONS */
 
 header {
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
     justify-content: space-between;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: var(--bodyfont);
-    font-weight: var(--fontweight1);
-    font-size: 12px;
-    height: 8vh;
-    padding: 6px;
-    width: 100%;
+.menu {
+    text-align: right;
 }
 
-nav img {
-    margin-right: 260px;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    letter-spacing: 1px;
-    margin-left: 15px;
-    padding: 10px;
-}
-
-.nav-list li a {
-    color: var(--color3);
+.menu nav a {
     text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
 }
 
 #btn {
     border: 2px solid black;
-    padding: 10px 20px;
-    margin-left: 25px;
+    padding: 2px 10px;
+    display: inline-block;
 }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-}
 
 /* FIRST SECTION AND INTRODUCING COMPONENTS */
 
