@@ -43,13 +43,15 @@ header {
 
 .menu nav a {
     text-decoration: none;
-    font-size: 16px;
+    font-family: var(--bodyfont);
+    font-size: 15px;
+    color: var(color3);
     margin-right: 20px;
 }
 
 #btn {
     border: 2px solid black;
-    padding: 2px 10px;
+    padding: 4px 15px;
     display: inline-block;
 }
 
@@ -107,12 +109,21 @@ section#main {
 
 /* CARDS ABOUR THE COMPANY DIFFERENCIALS */
 
+main {
+    display: flex;
+}
+
 .cards {
     background-color: yellow;
     display: flex;
     margin: auto;
-    width: 100%;
-    max-width: 1150px;
+    max-width: 1100px;
+}
+
+.card {
+    width: 32%;
+    margin: 12% 1% 0 0;
+    padding: 20px 15px;
 }
 
 .image {
@@ -163,49 +174,4 @@ section#main {
     background-color: var(--color1);
     justify-content: center;
     margin: auto;
-}
-
-@media (min-width: 320px) and (max-width: 768px) {   
-    header {
-        width: 100%;
-        display: flex;
-        margin: auto;
-    }
-
-    nav {
-        display: flex;
-        align-items: center;
-        padding: 0;
-    }
-
-    nav img {
-        margin: 0;
-    }
-
-    .mobile-menu {
-        display: flex;
-    }
-
-    .nav-list {
-        display: none;
-    }
-    
-    .intro-container {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: white;
-    }
-
-    .intro-content {
-        background-color: var(--color0);
-    }
-    
-    .intro-img img {
-        width: 100%;
-        margin: 0;
-    }
-
-    .cards {
-        margin-top: 650px;
-    }
 }
