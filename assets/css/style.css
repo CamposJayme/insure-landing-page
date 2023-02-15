@@ -179,12 +179,19 @@ section#main {
 
 /* RODAPÉ COM OPÇÕES DE MENU */
 
+footer {
+    margin-bottom: 2%;
+}
+
 .logo-networks {
     display: flex;
     margin: 1.5% auto;
-    background-color: var(--color1);
     max-width: 1100px;
     justify-content: space-between;
+}
+
+ul {
+    list-style: none;
 }
 
 .social-networks ul li {
@@ -196,3 +203,23 @@ hr {
     max-width: 1100px;
 }
 
+.footer-infos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-infos p {
+    font-family: var(--bodyfont);
+    font-weight: var(--fontweight1);
+    margin-bottom: 10%;
+}
+
+.footer-infos ul li a {
+    text-decoration: none;
+    font-family: var(--bodyfont);
+    font-weight: var(--fontweight0);
+    color: var(--color3);
+    line-height: 1.8em;
+}
