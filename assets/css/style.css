@@ -31,7 +31,7 @@ header {
 
 .container {
     display: flex;
-    max-width: 1100px;
+    max-width: 1160px;
     margin: 0 auto;
     padding: 0 2%;
     justify-content: space-between;
@@ -109,15 +109,18 @@ section#main {
 
 /* CARDS ABOUR THE COMPANY DIFFERENCIALS */
 
-main {
-    display: flex;
+.cards-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cards-container > h1 {
+    font-size: 59.3pt;
+    margin: 3% 0;
 }
 
 .cards {
-    background-color: yellow;
     display: flex;
-    margin: auto;
-    max-width: 1100px;
 }
 
 .card {
