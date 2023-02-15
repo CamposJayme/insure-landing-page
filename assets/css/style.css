@@ -160,14 +160,21 @@ section#main {
     background-color: var(--color0);
     display: flex;
     margin: auto;
-    width: 100%;
-    max-width: 1150px;
+    max-width: 1100px;
     height: 28vh;
 }
 
+.work-container h2 {
+    margin: auto;
+    font-size: 28pt;
+}
+
 .work-container a {
+    margin: auto;
     text-decoration: none;
     color: var(--color4);
+    border: 2px solid white;
+    padding: 4px 15px;
 }
 
 /* RODAPÉ COM OPÇÕES DE MENU */
