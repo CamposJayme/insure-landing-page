@@ -83,7 +83,6 @@ section#main {
     line-height: 4.3rem;
     margin-top: 60px;
     max-width: 600px;
-    width: 100%;
 }
 
 .intro-content p {
@@ -92,7 +91,6 @@ section#main {
     margin-bottom: 40px;
     font-size: 12pt;
     max-width: 540px;
-    width: 100%;
 }
 
 .intro-btn {
