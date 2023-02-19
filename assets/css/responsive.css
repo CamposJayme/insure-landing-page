@@ -32,6 +32,21 @@ MAIN CONTENT RESPONSIVE DESIGN
     }
 }
 
+@media screen and (max-width: 590px) {
+    #nav #mobile {
+        display: block;
+    }
+
+    #nav a {
+        display: none;
+    }
+
+    #nav #btn {
+        display: none;
+    }
+}
+
+
 /*
 CARDS CONTAINE RESPONSIVE DESIGN
 */
