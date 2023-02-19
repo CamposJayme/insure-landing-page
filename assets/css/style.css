@@ -37,26 +37,26 @@ header {
     justify-content: space-between;
 }
 
-#nav {
+#nav #menu {
     text-align: right;
+    display: flex;
+    gap: .5rem;
+    font-size: 15px;
+    margin-right: 20px;
 }
 
-#nav a {
+#menu a {
+    display: block;
+    padding: .5rem;
     text-decoration: none;
     font-family: var(--bodyfont);
-    font-size: 15px;
     color: var(--color3);
-    margin-right: 20px;
 }
 
 #nav #mobile {
     display: none;
-}
-
-#nav #btn {
-    border: 2px solid black;
-    padding: 4px 15px;
-    display: inline-block;
+    padding: 8px 15px;
+    font-family: var(--bodyfont);
 }
 
 /* 
