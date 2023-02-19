@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+/*
+MAIN CONTENT RESPONSIVE DESIGN
+*/
 @media screen and (max-width: 1080px) {
     
 
@@ -44,6 +48,9 @@
     }
 }
 
+/*
+FOOTER RESPONSIVE DESIGN
+*/
 @media screen and (max-width: 500px) {
     .how-we-work {
         margin-top: 25px;
