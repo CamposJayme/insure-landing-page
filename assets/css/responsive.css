@@ -32,6 +32,10 @@ MAIN CONTENT RESPONSIVE DESIGN
     }
 }
 
+/*
+MENU MOBILE STYLE 
+*/
+
 @media screen and (max-width: 590px) {
     #nav #mobile {
         display: block;
