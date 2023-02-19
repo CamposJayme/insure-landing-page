@@ -42,4 +42,32 @@
         width: 100%;
         margin: 20px 20px;
     }
+
+    .how-we-work {
+        margin-top: 25px;
+    }
+
+    .footer-container {
+        margin-top: -20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-networks {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-networks .footer-logo {
+        margin-right: 10px;
+    }
+    
+    .footer-infos {
+        flex-direction: column;
+    }
+
+    .our-company, .help-me, .contact, .others {
+        margin: 10px auto;
+        width: 100%;
+    }
 }
