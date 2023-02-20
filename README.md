@@ -34,3 +34,23 @@ This website kind of consists in presentation of a company and services, we can 
 
 https://www.loom.com/share/ebc8a158256c4df29d5dc9eff40c7000
 
+# FAQ
+
+<p>
+1°) How much time do I spend working on this website?
+R: 7 days (a week)
+</p>
+
+<p>
+2°) What was the most difficult part this project?
+R: Find the better design using media queries, I mean, there's a lot of options, but only one made me feel right!
+</p>
+
+<p>
+3°) What was the objective studying and making this website?
+R: Get better on add interactions and practice responsive since the beginning and learn some interactions with JavaScript
+</p>
+
+<p>
+4°) Do I feel satisfied at the of the project?
+R: Certainly, my difficult was exactly on responsive design, because I had the habit to do that after desktop version, so I took some videos with hints and planned the responsive from the beginning of the website. 
