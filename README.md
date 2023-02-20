@@ -4,7 +4,7 @@ Welcome to my project!
 
 # intro
 This is insure-landing-page, it was build based on a website design at <a href="https://www.frontendmentor.io/challenges">Front-End mentor - Challenges</a>. Its design got some attention from me because it's simple and attractive from header to 
-footer e his mobile version is a real challenge to practice, including the mobile menu. Let's take a look at it.
+footer e his mobile version is a real challenge to practice, including the mobile menu. 
 
 # methods and development technologies
 <strong>HTML5</strong>
@@ -26,3 +26,11 @@ footer e his mobile version is a real challenge to practice, including the mobil
     <li>Function with event 'click'</li>
     <li>Interaction with menu mobile</li>
 </ul>
+
+# the project
+This website kind of consists in presentation of a company and services, we can se about how the company works having the idea of a portfolio. Let's get started and take a look at it.
+
+<h2>Desktop and responsive design</h2>
+
+https://www.loom.com/share/ebc8a158256c4df29d5dc9eff40c7000
+
